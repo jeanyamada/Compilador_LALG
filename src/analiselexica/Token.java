@@ -1,0 +1,27 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package analiselexica;
+
+/**
+ *
+ * @author jean
+ */
+public enum Token {
+    IF, WHILE, READ, WRITE,VAR,
+    PROCEDURE,BEGIN,END, PALAVRA_RESERVADA_INT,PALAVRA_RESERVADA_INTEGER,
+    PALAVRA_RESERVADA_REAL, PALAVRA_RESERVADA_BOOLEAN, PALAVRA_RESERVADA_TRUE, PALAVRA_RESERVADA_FALSE,
+    PROGRAM,THEN,ELSE,DO,NOT,
+    DIV,OR,AND,
+    NUM_INTEIRO,NUM_REAL,OP_SOMA,OP_DIV,OP_MULT,OP_SUB,
+    ID,
+    SIMB_PONTO_VIRGULA,SIMB_VIRGULA,SIMB_MAIOR,SIMB_MAIORIGUAL,SIMB_PONTO,
+    SIMB_MENOR,SIMB_MENORIGUAL,SIMB_DIFERENTE,SIMB_DEFINETIPO,SIMB_ATRIBUICAO,SIMB_IGUAL,SIMB_AP,SIMB_FP,
+    SIMB_DESCONHECIDO,FINISH_CODE,
+    
+    ;
+    
+    
+}
